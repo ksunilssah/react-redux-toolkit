@@ -1,0 +1,23 @@
+.tab-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+
+  ul {
+    list-style: none;
+    text-align: left;
+    li {
+      display: inline;
+      &.active {
+        button {
+          background-color: blueviolet;
+        }
+      }
+    }
+  }
+
+  .tab-content {
+    text-align: left;
+    border: 1px solid gray;
+  }
+}
